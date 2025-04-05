@@ -1,0 +1,2 @@
+# letescribe
+Transcribe. Summarize. Locally.
