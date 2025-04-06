@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Transcribe-only English video",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/letescribe.py",
+            "args": ["--transcribe-only", "--language", "en", "--media-file", ".\\examples\\CCAM-Cyber-2025-03-27.mp4"],
+            "console": "integratedTerminal"
+        }, 
+        {
+            "name": "Transcribe and Summarize locally English video",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/letescribe.py",
+            "args": ["--language", "en", "--media-file", ".\\examples\\CCAM-Cyber-2025-03-27.mp4", "--summarize-locally"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
